@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default rounded borders and incre[22;16H(B[0;7m[ line 1/1 (100%), col 1/1 (100%), char 0/0 (0%) ]
+[3d(B[m[24;1H[?1049l
+[?1l>
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+    /* #myNavbar{
+         color: black;
+    }*/
+
+    .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    color: black;
+  }
+
+  .nav.navbar-nav.navbar-center li a {
+    color: black;
+    font-weight: 500;
+    font-size: 14pt;
+  }
+
+    #headerImgContainer {
+  width: 100%;
+  height: 200px;
+  }
+  #headerImg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #span {
+    font-weight: bold;
+    font-size: 13pt;
+  }
+
+  #color {
+    font-weight: bold;
+    color: red;
+  }
+
+  </style>
+</head>
+<body >
+
+
+<div id="headerImgContainer">
+    <img id="headerImg" src="./img/firee.jpg" alt="forest Fire">
+</div>
+
+
+<nav class="navbar" style="background-color: #EA6527;">
+    <div class="container"></div>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-center">
+          <li><a href="#">Game</a></li>
+          <li><a href="#">Help the Cause</a></li>
+          <li><a href="#">Survival Guide</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+<div class="container-fluid">    
+  
+
+    <!-- Why and What we do -->
+    <div class="col-xs-3 row">
+      <h1 style ="text-align: center;">Fire</h1>
+      <br>
+      <p><span id ="span">Step1</span>: <span id ="color">KEEP</span> your clothes dry. On high heat, wet clothing will scald.<br><br>
+          <span id ="span">Step2</span>: <span id ="color">PUT</span> your shirt over your mouth to keep from inhaling large particulate.<br><br>
+          <span id ="span">Step3</span>: <span id ="color">HIGHTAIL</span> it downhill if possible, and stay low to the ground. Fire moves uphill faster because of updrafts, and smoke rises.<br><br>
+          <span id ="span">Step4</span>: <span id ="color">CONSIDER</span> wind direction: if its blowing toward the fire from where you are, run into the wind. (Hint: if it is blowing from behind toward you, run perpendicular to the wind.)<br>
+          <span id ="span">Step5</span>: <span id ="color">AVOID</span> canyons and chutes, which can funnel deadly heat towards you as you descend.<br><br>
+          <span id ="span">Step6</span>: <span id ="color">MOVE</span> to an area that has already burned and is less likely to speak again if you are caught out in the open.<br>
+      </p>
+    </div>
+
+    <div class ="col-xs-1 row"></div>
+
+    <!-- This is where game panel goes -->
+    <div class="col-xs-4 row"> 
+      <p> <img src="./img/firekit.jpg" class="img-responsive" width="100%" alt="Image"></p>
+    </div>
+
+    <div class ="col-xs-1 row"></div>
+
+    <!-- Hope; what do we want to achieve -->
+    
+    <div class="col-sm-3"> 
+      <h1 style ="text-align: center">Emergency Kit</h1>
+      <p></span><br><br> <span id="span">1. </span>Water <br><br> <span id="span">2. </span>food<br><br> <span id="span">3. </span>swiss army knife<br><br> <span id="span">4. </span>wind-up flashlight and radio<br><br> <span id="span">5. </span>first-aid kit<br><br> <span id="span">6. </span>extra cash<br><br> <span id="span">7. </span>maps <br><br> <span id="span">8. </span>emergency (escape) plan</p>
+    </div>
+  </div>
+</div><br>
+
+
+</body>
+</html>
