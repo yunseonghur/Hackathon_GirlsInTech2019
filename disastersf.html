@@ -33,9 +33,12 @@
     font-size: 14pt;
   }*/
 
+  @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700');
+
   nav {
     height: 50px;
     background-color: #ea6527;
+    padding: 6px 0 6px 0;
   }
         
   nav ul {
@@ -47,13 +50,14 @@
 
   nav ul li {
       color: black;
-      font-size: 22px;
+      font-size: 24px;
       list-style: none;
-      font-weight: 600;
+      font-family: 'Nanum Gothic', sans-serif;
+      vertical-align: bottom;
   }
 
   nav ul li:hover {
-      color: yellow;
+      color: white;
       transition: 0.3s ease;
   }
     #headerImgContainer {
@@ -86,9 +90,9 @@
 
       <nav>
         <ul>
-          <li>Game</li>
+          <a href="landing_page.html"><li>Game</li></a>
           <a href="helpthecause.html"><li>Help the Cause</li></a>
-          <li>Survival Guide</li> 
+          <a href="disastersf.html"><li>Survival Guide</li></a>
         </ul>
       </nav><br>
 <!-- <nav class="navbar" style="background-color: #EA6527;">
