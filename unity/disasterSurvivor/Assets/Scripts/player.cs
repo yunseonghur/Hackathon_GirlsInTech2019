@@ -2,12 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class player : MonoBehaviour
+public class player : character
 {
-    [SerializeField]
-    private float speed;
-
-    private Vector2 direction;
 
     // Start is called before the first frame update
     void Start()
@@ -16,16 +12,14 @@ public class player : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    protected override void Update()
     {
         GetInput();
-        Move();
+
+        base.Update();
     }
 
-    public void Move()
-    {
-        transform.Translate(direction * speed * Time.deltaTime); //Time.deltaTime ensures players moves at constant speed, no matter the FPS.
-    }
+
 
     private void GetInput()
     {
