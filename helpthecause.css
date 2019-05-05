@@ -4,7 +4,7 @@ body {
 }
 #headerImgContainer {
   width: 100%;
-  height: 200px;
+  height: 225px;
 }
 #headerImg {
   height: 100%;
@@ -31,6 +31,17 @@ nav ul li {
 nav ul li:hover {
   color: white;
   transition: 0.3s ease;
+}
+
+a:hover { text-decoration: none; }
+
+.active-tab {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.active-tab:hover { 
+  color: #ffffff;
+  text-shadow: 3px 3px 5px #000000;
 }
 
 #post1 {

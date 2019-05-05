@@ -34,6 +34,17 @@ nav ul li:hover {
     transition: 0.3s ease;
 }
 
+a:hover { text-decoration: none; }
+
+.active-tab {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.active-tab:hover { 
+  color: #ffffff;
+  text-shadow: 3px 3px 5px #000000;
+}
+
 .col-sm-3 p {
     font-size: 12pt;
     line-height: 1.8;

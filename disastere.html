@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Earthquake</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -87,13 +87,22 @@
   color: black;
 }
 
-  @media only screen and (max-width: 900px) {
+a:hover { text-decoration: none; }
 
+.active-tab {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.active-tab:hover { 
+  color: #ffffff;
+  text-shadow: 3px 3px 5px #000000;
+}
+
+@media only screen and (max-width: 900px) {
   nav ul a li{
     font-size: 18px;
   }
-
-  }
+}
 
   </style>
 </head>
@@ -111,7 +120,7 @@
         <a href="landing_page.html"><li>Game</li></a>
         <a href="helpthecause.html"><li>Help the Cause</li></a>
         <div class="dropdown show">
-          <a href="disastersf.html" class="btn btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><li>Survival Guide</li></a>
+          <a href="disastersf.html" class="btn btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><li class="active-tab">Survival Guide</li></a>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <a class="dropdown-item" href="disastersf.html">Fire</a><br><br>
               <a class="dropdown-item" href="disastere.html">Earthquake</a><br>
