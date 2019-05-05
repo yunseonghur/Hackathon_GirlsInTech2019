@@ -2,6 +2,8 @@ A list of items we used, and the sources (url):
 
 Ground tileset @ https://opengameart.org/content/ground-tiles-4
 Apple @ http://pixelartmaker.com/art/7299e4a6e150e21
-Rubber duck @ http://pixelartmaker.com/art/e98bfa8d74f3e0f
+Water bottle @ http://pixelartmaker.com/gallery?after=613667
+Hatchet @ https://pixelgun-wiki.fandom.com/wiki/Bone_Crusher
+Rubber duck @ https://www.deviantart.com/jhjjhg1/art/Pixel-Duck-Icon-466064291
 Teddy bear @ http://pixelartmaker.com/art/8e3b5a17f1696b6
 Flashlight @ https://opengameart.org/content/ground-tiles-4
