@@ -229,7 +229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 587281318}
-  startingState: {fileID: 11400000, guid: 348af1f88a81bbc4eb76062f9cc5c59f, type: 2}
+  startingState: {fileID: 11400000, guid: 892b5c1c1a5d6f74d93caa054dce10cd, type: 2}
 --- !u!4 &106849411
 Transform:
   m_ObjectHideFlags: 0
@@ -352,8 +352,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.5, y: -28}
-  m_SizeDelta: {x: 490.5, y: 30}
+  m_AnchoredPosition: {x: -4.5, y: -46.875}
+  m_SizeDelta: {x: 490.5, y: 67.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &587281318
 MonoBehaviour:

@@ -10,10 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9fb4dc8d2636c4e4f97e4aac84ae1263, type: 3}
-  m_Name: StartingState
+  m_Name: A0. Introduction
   m_EditorClassIdentifier: 
-  storyText: You are going on a camping trip with your family. Which items would you
-    like to pack in your bag?
+  storyText: 'Welcome.
+
+
+    This a simulation of a natural disaster. Make your choices carefully, because
+    one slip-up can cause an untimely ending.
+
+
+    Good luck...'
   nextStates:
-  - {fileID: 11400000, guid: 12121c8909cf64341b04da1816524f3f, type: 2}
-  - {fileID: 11400000, guid: 1eaf457fefc8d9845b1c871978df834d, type: 2}
+  - {fileID: 11400000, guid: 348af1f88a81bbc4eb76062f9cc5c59f, type: 2}
