@@ -5,20 +5,36 @@ body {
 .jumbotron {
       margin-bottom: 0;
     }
-.navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-    color: black;
+
+nav {
+    height: 50px;
+    background-color: #ea6527;
+}
+      
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
 }
 
-.nav.navbar-nav.navbar-center li a {
+nav ul li {
     color: black;
+    font-size: 22px;
+    list-style: none;
     font-weight: 600;
-    font-size: 14pt;
+}
+
+nav ul li:hover {
+    color: yellow;
+    transition: 0.3s ease;
 }
 
 .col-sm-3 p {
     font-size: 12pt;
     line-height: 1.8;
+}
+
+#right {
+    padding-left: 15px;
 }
