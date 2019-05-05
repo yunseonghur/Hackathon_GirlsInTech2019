@@ -52,13 +52,38 @@
             </a>
 
             <!-- Modal -->
-            <div class="modal fade" id="myModal" role="dialog">
-                    <div class="modal-dialog">
+            <div class="modal fade" id="myModal" role="dialog" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+                    <div class="modal-dialog" role="document">
                     
                     <!-- Modal content-->
                     <div class="modal-content">
-                        
-                        <!-- Game goes here -->
+                      <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Disasterscape</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        </button>
+                      </div>
+
+                      <!-- Game goes here -->
+                      <div class="thumbnail">
+                        <a href="scene-screenshots/scene01-screen.jpg" target="_blank">
+                          <img src="scene-screenshots/scene01-screen.jpg" alt="Fjords" style="width:100%">
+                          <div class="caption">
+                            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                          </div>
+                        </a>
+
+                        <a href="scene-screenshots/scene02-mountaintop.jpg" target="_blank">
+                          <img src="scene-screenshots/scene02-mountaintop.jpg" alt="Fjords" style="width:100%">
+                            <div class="caption">
+                              <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                            </div>
+                        </a>
+                      </div>
+
+                      <!-- Close modal -->
+                      <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                      data-dismiss="modal">Close</button>
 
                     </div>
                     
