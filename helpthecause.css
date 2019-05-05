@@ -24,6 +24,7 @@ nav ul {
 nav ul li {
   font-size: 24px;
   list-style: none;
+  color: black;
 }
 nav ul li:hover {
   color: yellow;
@@ -48,5 +49,5 @@ nav ul li:hover {
 
 #post1 a img {
   height: 50px;
-  width: auto;
+  width: 150px;
 }
