@@ -33,9 +33,12 @@
     font-size: 14pt;
   }*/
 
+  @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700');
+
   nav {
     height: 50px;
     background-color: #ea6527;
+    padding: 6px 0 6px 0;
   }
         
   nav ul {
@@ -47,24 +50,27 @@
 
   nav ul li {
       color: black;
-      font-size: 22px;
+      font-size: 24px;
       list-style: none;
-      font-weight: 600;
+      font-family: 'Nanum Gothic', sans-serif;
+      vertical-align: bottom;
   }
 
   nav ul li:hover {
-      color: yellow;
+      color: white;
       transition: 0.3s ease;
   }
-    #headerImgContainer {
+  #headerImgContainer {
   width: 100%;
   height: 200px;
   }
+
   #headerImg {
     height: 100%;
     width: 100%;
     object-fit: cover;
   }
+
   #span {
     font-weight: bold;
     font-size: 13pt;
@@ -74,6 +80,23 @@
     font-weight: bold;
     color: red;
   }
+
+  #dropdownMenuLink {
+  padding: 0 0 0 0;
+}
+
+  .dropdown-menu .dropdown-item {
+  padding-left: 15px;
+  color: black;
+}
+
+  @media only screen and (max-width: 900px) {
+
+nav ul a li{
+  font-size: 18px;
+}
+
+}
 
   </style>
 </head>
@@ -85,11 +108,17 @@
 </div>
 
       <nav>
-        <ul>
-          <li>Game</li>
-          <a href="helpthecause.html"><li>Help the Cause</li></a>
-          <li>Survival Guide</li> 
-        </ul>
+          <ul>
+              <a href="landing_page.html"><li>Game</li></a>
+              <a href="helpthecause.html"><li>Help the Cause</li></a>
+              <div class="dropdown show">
+                <a href="disastersf.html" class="btn btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><li>Survival Guide</li></a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="disastersf.html">Fire</a><br><br>
+                    <a class="dropdown-item" href="disastere.html">Earthquake</a><br>
+                </div>
+              </div>
+            </ul>
       </nav><br>
 <!-- <nav class="navbar" style="background-color: #EA6527;">
     <div class="container"></div>
@@ -112,38 +141,36 @@
 
 
 
-<div class="container-fluid">    
+<div class="container">    
   
-  <div class ="col-xs-1"></div>
     <!-- Why and What we do -->
-    <div class="col-xs-3 row">
+    <div class="row">
+      <div class ="col-sm-4">
       <h1 style ="text-align: center;">Fire</h1>
       <br>
-      <p><span id ="span">Step1</span>: <span id ="color">KEEP</span> your clothes dry. On high heat, wet clothing will scald.<br><br>
-          <span id ="span">Step2</span>: <span id ="color">PUT</span> your shirt over your mouth to keep from inhaling large particulate.<br><br>
-          <span id ="span">Step3</span>: <span id ="color">HIGHTAIL</span> it downhill if possible, and stay low to the ground. Fire moves uphill faster because of updrafts, and smoke rises.<br><br>
-          <span id ="span">Step4</span>: <span id ="color">CONSIDER</span> wind direction: if its blowing toward the fire from where you are, run into the wind. (Hint: if it is blowing from behind toward you, run perpendicular to the wind.)<br>
-          <span id ="span">Step5</span>: <span id ="color">AVOID</span> canyons and chutes, which can funnel deadly heat towards you as you descend.<br><br>
-          <span id ="span">Step6</span>: <span id ="color">MOVE</span> to an area that has already burned and is less likely to speak again if you are caught out in the open.<br>
-      </p>
-    </div>
+      <p><span id ="span">Step 1</span>: <span id ="color">KEEP</span> your clothes dry. On high heat, wet clothing will scald.<br><br>
+          <span id ="span">Step 2</span>: <span id ="color">PUT</span> your shirt over your mouth to keep from inhaling large particulate.<br><br>
+          <span id ="span">Step 3</span>: <span id ="color">HIGHTAIL</span> it downhill if possible, and stay low to the ground. Fire moves uphill faster because of updrafts, and smoke rises.<br><br>
+          <span id ="span">Step 4</span>: <span id ="color">CONSIDER</span> wind direction: if its blowing toward the fire from where you are, run into the wind. (Hint: if it is blowing from behind toward you, run perpendicular to the wind.)<br><br>
+          <span id ="span">Step 5</span>: <span id ="color">AVOID</span> canyons and chutes, which can funnel deadly heat towards you as you descend.<br><br>
+          <span id ="span">Step 6</span>: <span id ="color">MOVE</span> to an area that has already burned and is less likely to speak again if you are caught out in the open.<br>
+      </p><br>
+      </div>
 
-    <div class ="col-xs-1 row"></div>
 
     <!-- This is where game panel goes -->
-    <div class="col-xs-4 row"> 
-      <p> <img src="./img/firekit.jpg" class="img-responsive" width="100%" alt="Image"></p>
+    <div class="col-sm-4"> <br><br>
+      <p> <img src="./img/firekit.jpg" class="img-responsive" width="100%" alt="Image"></p><br>
     </div>
-
-    <div class ="col-xs-1 row"></div>
 
     <!-- Hope; what do we want to achieve -->
-    
-    <div class="col-sm-3"> 
+    <div class="col-sm-1"></div>
+    <div class="col-sm-4"> 
       <h1 style ="text-align: center">Emergency Kit</h1>
-      <p></span><br><br> <span id="span">1. </span>Water <br><br> <span id="span">2. </span>food<br><br> <span id="span">3. </span>swiss army knife<br><br> <span id="span">4. </span>wind-up flashlight and radio<br><br> <span id="span">5. </span>first-aid kit<br><br> <span id="span">6. </span>extra cash<br><br> <span id="span">7. </span>maps <br><br> <span id="span">8. </span>emergency (escape) plan</p>
+      <p></span><br><br> <span id="span">1. </span>Water <br><br> <span id="span">2. </span>Food<br><br> <span id="span">3. </span>Swiss army knife<br><br> <span id="span">4. </span>Wind-up flashlight and radio<br><br> <span id="span">5. </span>First-aid kit<br><br> <span id="span">6. </span>Extra cash<br><br> <span id="span">7. </span>Maps <br><br> <span id="span">8. </span>Emergency (escape) plan</p>
     </div>
   </div>
+  
 </div><br>
 
 

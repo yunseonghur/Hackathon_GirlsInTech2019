@@ -2,6 +2,10 @@ body {
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+#bannerimg {
+    height: 200px;
+}
+
 .jumbotron {
       margin-bottom: 0;
     }
@@ -9,6 +13,7 @@ body {
 nav {
     height: 50px;
     background-color: #ea6527;
+    padding: 6px 0 6px 0;
 }
       
 nav ul {
@@ -20,13 +25,12 @@ nav ul {
 
 nav ul li {
     color: black;
-    font-size: 22px;
+    font-size: 24px;
     list-style: none;
-    font-weight: 600;
 }
 
 nav ul li:hover {
-    color: yellow;
+    color: white;
     transition: 0.3s ease;
 }
 
@@ -35,6 +39,24 @@ nav ul li:hover {
     line-height: 1.8;
 }
 
+
 #right {
     padding-left: 15px;
 }
+
+#dropdownMenuLink {
+    padding: 0 0 0 0;
+}
+
+.dropdown-menu .dropdown-item {
+    padding-left: 15px;
+    color: black;
+}
+
+@media only screen and (max-width: 900px) {
+
+    nav ul a li{
+      font-size: 18px;
+    }
+  
+  }
