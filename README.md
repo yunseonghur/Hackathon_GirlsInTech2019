@@ -31,7 +31,7 @@ We used HTML, CSS, Bootstrap, Unity, C#, and AfterEffects for creating the game 
 
 - [Which part was the most difficult to implement and why?]
 
-The most difficult part was implementing the game because we had to learn Unity and C# within limited time. We were not wholly successful in our endeavour, and unforunately we underestimated the difficulty and ran out of time. We were forced to give up on using Unity due to the time constraint, and we're instead doing a video prototype as proof-of-concept.
+The most difficult part was implementing the game because we had to learn Unity and C# within limited time. We were not wholly successful in our endeavour, and unforunately we underestimated the difficulty and ran out of time. We were forced to give up on using Unity due to the time constraint, and we're instead doing a photo-based prototype as proof-of-concept.
 
 
 ***
